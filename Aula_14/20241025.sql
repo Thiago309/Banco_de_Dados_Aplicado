@@ -1,0 +1,24 @@
+--CREATE DATABASE teste;
+--GO
+--USE teste;
+--CREATE TABLE agenda(Codigo INTEGER IDENTITY PRIMARY KEY,
+--					Nome VARCHAR(50) NOT NULL,
+--					Fone CHAR(10) NOT NULL);
+
+--SET IMPLICIT_TRANSACTIONS OFF;
+
+--INSERT INTO agenda (Nome, Fone) 
+		--VALUES ('Teste 1', NULL);
+
+--INSERT INTO agenda (Nome, Fone) 
+--		VALUES ('Teste 1', '1111-1111');
+
+--TRUNCATE TABLE agenda;
+
+--SET IMPLICIT_TRANSACTIONS OFF;
+--BEGIN TRANSACTION;
+--ROLLBACK;
+
+--COMMIT;
+
+--SELECT * FROM agenda;
